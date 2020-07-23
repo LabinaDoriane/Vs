@@ -1,0 +1,21 @@
+.cadre {
+    background-color: rgb(24, 113, 173);
+    width: 1000px;
+    height: 600px;
+    border: 5px solid black;
+    }
+
+.ryu {border: 6px solid red;
+      float: left;
+      justify-content: flex-start;}    
+
+.chun {border: 6px solid blue;
+       float: right;
+       justify-content: flex-start;
+       align-items: flex-start;}    
+
+.vs   {float: left; 
+       margin-top: 200px;
+       margin-left: 80px; }   
+       
+ .ryu:hover,.chun:hover {opacity: 0.5;}
